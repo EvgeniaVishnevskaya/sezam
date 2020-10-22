@@ -1,0 +1,181 @@
+@import "reset.css";
+@font-face {
+  font-family: Le Murmure;
+  src: url(../fonts/le-murmure.otf);
+}
+@font-face {
+  font-family: CSTM;
+  src: url(../fonts/CSTM_Xprmntl.otf);
+}
+@font-face {
+  font-family: Yeseva One;
+  src: url(../fonts/YesevaOne-Regular.ttf);
+}
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-family: Le Murmure;
+  font-size: 96px;
+}
+h2{
+  font-family: Yeseva One;
+  font-size: 48px;
+}
+h3{
+  font-family: CSTM;
+  font-size: 24px;
+}
+h4{
+  font-family: Nunito;
+  font-size: 14px;
+}
+p{
+  font-family: Nunito;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+}
+.menu{
+  display: flex;
+  width: 1160px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 52px;
+  margin-bottom: 44px;
+
+}
+.team{
+  display: flex;
+  width: 766px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 82px;
+}
+.team h2{
+  font-size: 64px;
+  margin-top: 62px;
+  margin-bottom: 36px;
+}
+.stop{
+  margin-top: 70px;
+  margin-bottom: 82px;
+}
+.line{
+  display: flex;
+  text-align: left;
+
+  margin-bottom: 70px;
+
+}
+.line h2{
+  font-size: 24px;
+
+}
+.main-text{
+  display: flex;
+  align-items: flex-start;
+}
+.main-text h2{
+  width: 196px;
+  margin-top: 0;
+}
+
+.people{
+  display: flex;
+  text-align: left;
+  width: 1160px;
+  justify-content: space-between;
+}
+.help{
+  display: flex;
+  width: 766px;
+  flex-direction: column;
+  align-items: center;
+}
+.help h2{
+  margin-bottom: 57px;
+}
+.help .line{
+  align-items: center;
+
+}
+.help .line p:first-child{
+  width: 413px;
+  margin-right: 58px;
+  margin-left: 0px;
+
+}
+.help .line p{
+  margin-left: 58px;
+}
+.mailing{
+  background-color: #F9DB4A;
+  width: 1160px;
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 76px;
+}
+.mailing h2{
+  margin-top: 60px;
+  margin-bottom: 53px;
+}
+.field{
+  width: 570px;
+  height: 51px;
+  background-color: #FFFFFF;
+  border-radius: 25.5px;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 31px;
+
+}
+.field h4{
+  color: #A0A0A0;
+  margin-left: 73px;
+}
+.btn{
+  width: 570px;
+  height: 51px;
+  background-color: #002DF4;
+  border-radius: 25.5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.btn h4{
+  color: #FFFFFF;
+  width: 570px;
+}
+.box{
+  width: 1165px;
+  height: 536px;
+  background-color: #E74928;
+}
+.futter{
+  width: 100vw;
+  height: 154px;
+  background-color: #3F8C45;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 152px;
+}
+.futter h1{
+  color: #FFFFFF;
+  width: 100vw;
+
+}
