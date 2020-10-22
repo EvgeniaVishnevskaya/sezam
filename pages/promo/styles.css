@@ -56,15 +56,17 @@ a{
 }
 .promo img{
   margin-bottom: -638px;
-  margin-left: 535px;
+  margin-left: 166px;
   margin-top: -90px;
   z-index: 1;
 }
+
 .h1{
   display: flex;
   width: 1160px;
   margin-top: 213px;
   flex-direction: column;
+  z-index: 2;
 }
 .big-text{
   font-size: 100px;
