@@ -163,7 +163,15 @@ a{
 .box{
   width: 1165px;
   height: 536px;
-  background-color: #E74928;
+  background-color: #002DF4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.box img{
+  margin-top: -63px;
+
 }
 .futter{
   width: 100vw;
