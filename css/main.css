@@ -96,6 +96,9 @@ a{
   width: 1160px;
   justify-content: space-between;
 }
+.character h4{
+  margin-top: 19px;
+}
 .help{
   display: flex;
   width: 766px;
